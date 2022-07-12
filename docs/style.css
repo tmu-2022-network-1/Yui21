@@ -1,0 +1,49 @@
+/* 縦書きについて: https: //www.webcreatorbox.com/tech/writing-mode */
+
+body {
+    font-family: serif;
+    text-align: center;
+    background-color: aqua;
+}
+
+.title {
+    /* vertical:縦書き、rl:右から左 */
+    writing-mode: vertical-rl;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.title-area {
+    /* タイトル位置固定 */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-cover-container {
+    display: flex;
+    padding-top: 2000px;
+    margin-bottom: 200px;
+    /* margin: 0 auto; */
+
+    /* position: sticky; */
+}
+
+.front-cover-container:hover {
+    opacity: 0.5;
+}
+
+.img:hover {
+    opacity: 0.5;
+}
+
+a {
+    background-color: bisque;
+    margin-right: 0%;
+    margin-left: 0%;
+}
