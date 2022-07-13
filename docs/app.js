@@ -12,5 +12,8 @@ function add_class_in_scrolling(target) {
 //スクロール連動アニメーション
 $(window).on('load scroll', function () {
     add_class_in_scrolling($('.vol1_1'));
+    add_class_in_scrolling($('.vol1_2'));
+    add_class_in_scrolling($('.vol1_3'));
+    add_class_in_scrolling($('.vol1_4'));
 
 });
