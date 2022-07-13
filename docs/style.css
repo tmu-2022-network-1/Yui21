@@ -34,12 +34,18 @@ body {
     /* position: sticky; */
 }
 
+
+
 .front-cover-container:hover {
-    opacity: 0.5;
+    opacity: 0.99;
 }
 
-.img:hover {
-    opacity: 0.5;
+.volume_1 img:hover {
+    opacity: 0.8;
+}
+
+.volume_2 img:hover {
+    opacity: 0.8;
 }
 
 a {
