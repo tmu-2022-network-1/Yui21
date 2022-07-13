@@ -82,3 +82,9 @@ a {
         opacity: 1
     }
 }
+
+.vol1_1_dog {
+    opacity: 0;
+    animation: fadeIn 2.5s ease 0.3s 1 forwards;
+
+}
