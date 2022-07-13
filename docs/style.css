@@ -3,7 +3,7 @@
 body {
     font-family: serif;
     text-align: center;
-    background-color: aqua;
+    background-color: #fff;
 }
 
 .title,
@@ -50,7 +50,7 @@ p {
 }
 
 a {
-    background-color: bisque;
+    background-color: #fff;
     margin-right: 0%;
     margin-left: 0%;
 }
