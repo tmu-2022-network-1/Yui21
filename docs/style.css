@@ -6,7 +6,8 @@ body {
     background-color: aqua;
 }
 
-.title {
+.title,
+p {
     /* vertical:縦書き、rl:右から左 */
     writing-mode: vertical-rl;
     display: inline-block;
@@ -52,4 +53,32 @@ a {
     background-color: bisque;
     margin-right: 0%;
     margin-left: 0%;
+}
+
+.svgall {
+    position: relative;
+
+
+
+}
+
+.volume_1-illust {
+    opacity: 0;
+    animation: fadeIn 2.5s ease 0.3s 1 forwards;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-95%, -45%);
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
 }
