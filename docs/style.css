@@ -6,8 +6,14 @@ body {
     background-color: #fff;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    background-color: none;
+}
+
 .title,
-p {
+.title p {
     /* vertical:縦書き、rl:右から左 */
     writing-mode: vertical-rl;
     display: inline-block;
@@ -53,6 +59,7 @@ a {
     background-color: #fff;
     margin-right: 0%;
     margin-left: 0%;
+    display: inline-block;
 }
 
 .svgall {

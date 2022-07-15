@@ -355,7 +355,7 @@
             -webkit-transition: max-height 0.5s ease;
             transition: max-height 0.5s ease;
             color: #ffffff;
-            background: rgba(0, 131, 143, 0.5);
+            background: #ffffff;
         }
 
         .cp_qa .cp_actab .cp_actab-content p {
@@ -370,7 +370,7 @@
 
         /* --答えの高さ */
         .cp_qa .cp_actab input:checked~.cp_actab-content {
-            max-height: 40em;
+            max-height: 100em;
         }
 
         /* 質問をクリックした時のアイコンの動き */
@@ -408,10 +408,72 @@
             height: 100%;
             mask: url("#clipMask");
         } */
+
+
+
+        /* .cp_actab-content {
+            width: 3000px;
+            height: 600px;
+            white-space: nowrap;
+            overflow-x: scroll;
+        } */
+
+
+
+
+        /* .scrolling-wrapper {
+            overflow-x: scroll * -1;
+            overflow-y: hidden;
+            white-space: nowrap;
+
+
+
+        }
+
+        .scrolling-wrapper .item {
+            display: inline-block;
+            -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+        } */
+
+
+
+
+        section {
+            max-width: 600px;
+            padding: 20px;
+            margin: auto;
+            /* border: 2px solid #000; */
+
+            /* 横にはみ出した要素をスクロールするプロパティ */
+            overflow-x: scroll;
+
+            /* 文字表記の方向（左右）を指定する */
+            -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+        }
+
+        p {
+            /* 画像のサイズ指定 */
+            width: 1200px;
+        }
+
+        img {
+            /* 画像のサイズ指定 */
+            width: 100%;
+            hight: auto;
+        }
     </style>
 </head>
 
 <body>
+    <header>
+        <h2>あいうえおあああああああああああああああああああ</h2>
+
+    </header>
+
+
+
     <div class="vol1_cover">
         <svg class="mask" viewBox="0 0 1366 768" id="move">
             <defs>
@@ -433,7 +495,7 @@
             <image xlink:href="volume_1.svg" width="100%" height="100%" mask="url(#clipMask)"></image>
         </svg>
     </div>
-
+    <hr>
     <div class="vol1_1">
         <svg class="mask" viewBox="0 0 1366 768" id="move1">
             <defs>
@@ -466,7 +528,7 @@
             <image xlink:href="vol1_1.svg" width="100%" height="100%" mask="url(#clipMask1)"></image>
         </svg>
     </div>
-
+    <hr>
     <div class="vol1_2">
         <svg class="mask" viewBox="0 0 1366 768" id="move2">
             <defs>
@@ -493,7 +555,7 @@
             <image xlink:href="vol1_2.svg" width="100%" height="100%" mask="url(#clipMask2)"></image>
         </svg>
     </div>
-
+    <hr>
     <div class="vol1_3">
         <svg class="mask" viewBox="0 0 1366 768" id="move3">
             <defs>
@@ -522,7 +584,7 @@
             <image xlink:href="vol1_3.svg" width="100%" height="100%" mask="url(#clipMask3)"></image>
         </svg>
     </div>
-
+    <hr>
     <div class="vol1_4">
         <svg class="mask" viewBox="0 0 1366 768" id="move4">
             <defs>
@@ -549,7 +611,7 @@
             <image xlink:href="vol1_4.svg" width="100%" height="100%" mask="url(#clipMask4)"></image>
         </svg>
     </div>
-
+    <hr>
     <div class="vol1_5">
         <svg class="mask" viewBox="0 0 1366 768" id="move5">
             <defs>
@@ -570,7 +632,7 @@
             <image xlink:href="vol1_5.svg" width="100%" height="100%" mask="url(#clipMask5)"></image>
         </svg>
     </div>
-
+    <hr>
     <div class="vol1_6">
         <svg class="mask" viewBox="0 0 1366 768" id="move6">
             <defs>
@@ -605,7 +667,7 @@
             <image xlink:href="vol1_6.svg" width="100%" height="100%" mask="url(#clipMask6)"></image>
         </svg>
     </div>
-
+    <hr>
     <div class="vol1_7">
         <svg class="mask" viewBox="0 0 1366 768" id="move7">
             <defs>
@@ -630,7 +692,25 @@
             <input id="cp_tabfour011" type="checkbox" name="tabs">
             <label for="cp_tabfour011">講評を見る</label>
             <div class="cp_actab-content">
-                <p>「いめのうんどうかい」講評</p>
+                <!-- <p>「いめのうんどうかい」講評</p> -->
+                <!-- <div class="scrolling-wrapper">
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                    <div class="item"><img src="/docs/images/vol1_cover_comment.png"></div>
+                </div> -->
+
+                <section>
+                    <p><img src="/docs/images/yokonaga.jpeg" alt=""></p>
+                </section>
             </div>
         </div>
     </div>
