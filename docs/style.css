@@ -2,14 +2,29 @@
 
 body {
     font-family: serif;
-    text-align: center;
-    background-color: #fff;
+    /* text-align: center; */
+    background-color: white;
 }
 
 header {
     position: fixed;
     width: 100%;
     background-color: none;
+    display: flex;
+}
+
+header img {
+    width: 30%;
+    height: 30%;
+    padding-top: 1%;
+    margin-left: 2%;
+}
+
+h3 {
+    font-size: 30%;
+    padding-left: 2%;
+    padding-top: 1%;
+    margin-top: 2%;
 }
 
 .title,
@@ -36,6 +51,7 @@ header {
     display: flex;
     padding-top: 2000px;
     margin-bottom: 200px;
+    text-align: center;
     /* margin: 0 auto; */
 
     /* position: sticky; */
@@ -48,11 +64,11 @@ header {
 }
 
 .volume_1 img:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .volume_2 img:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 a {
@@ -96,6 +112,10 @@ a {
 
 }
 
+.cp_actab {
+    text-align: center;
+}
+
 
 
 /* volume_1.svg */
@@ -106,7 +126,7 @@ a {
 .volume_1_st1 {
     fill: none;
     stroke: #ffffff;
-    stroke-width: 56.6929;
+    stroke-width: 65.1969;
     stroke-miterlimit: 10;
 }
 
@@ -212,56 +232,49 @@ a {
 .vol1_3_st2 {
     fill: none;
     stroke: #ffffff;
-    stroke-width: 229.6063;
+    stroke-width: 62.3622;
     stroke-miterlimit: 10;
 }
 
 .vol1_3_st3 {
     fill: none;
     stroke: #ffffff;
-    stroke-width: 51.0236;
+    stroke-width: 53.8583;
     stroke-miterlimit: 10;
 }
 
 .vol1_3_st4 {
     fill: none;
     stroke: #ffffff;
-    stroke-width: 62.3622;
+    stroke-width: 45.3543;
     stroke-miterlimit: 10;
 }
 
 .vol1_3_st5 {
     fill: none;
     stroke: #ffffff;
-    stroke-width: 56.6929;
+    stroke-width: 31.1811;
     stroke-miterlimit: 10;
 }
 
 .vol1_3_st6 {
     fill: none;
     stroke: #ffffff;
-    stroke-width: 45.3543;
+    stroke-width: 25.5118;
     stroke-miterlimit: 10;
 }
 
 .vol1_3_st7 {
     fill: none;
     stroke: #ffffff;
-    stroke-width: 31.1811;
+    stroke-width: 36.8504;
     stroke-miterlimit: 10;
 }
 
 .vol1_3_st8 {
     fill: none;
     stroke: #ffffff;
-    stroke-width: 28.3465;
-    stroke-miterlimit: 10;
-}
-
-.vol1_3_st9 {
-    fill: none;
-    stroke: #ffffff;
-    stroke-width: 36.8504;
+    stroke-width: 263.622;
     stroke-miterlimit: 10;
 }
 
