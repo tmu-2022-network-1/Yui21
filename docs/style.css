@@ -3,7 +3,7 @@
 body {
     font-family: serif;
     /* text-align: center; */
-    background-color: white;
+    background-color: antiquewhite;
 }
 
 header {
@@ -63,16 +63,14 @@ h3 {
     opacity: 0.99;
 }
 
-.volume_1 img:hover {
+.front-cover-container img:hover {
     opacity: 0.5;
 }
 
-.volume_2 img:hover {
-    opacity: 0.5;
-}
+
 
 a {
-    background-color: #fff;
+    background-color: none;
     margin-right: 0%;
     margin-left: 0%;
     display: inline-block;
