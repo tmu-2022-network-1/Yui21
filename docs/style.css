@@ -20,6 +20,21 @@ header img {
     margin-left: 2%;
 }
 
+#author {
+    width: 9%;
+    height: 30%;
+    padding-top: 3%;
+    margin-left: 2%;
+}
+
+#comment {
+    width: 25%;
+}
+
+#cover {
+    width: 50%;
+}
+
 h3 {
     font-size: 30%;
     padding-left: 2%;
@@ -788,4 +803,123 @@ a {
     stroke: #ffffff;
     stroke-width: 59.5276;
     stroke-miterlimit: 10;
+}
+
+
+.cp_qa *,
+.cp_qa *:after,
+.cp_qa *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cp_qa {
+    border-top: 1px solid #1b2538;
+}
+
+.cp_qa .cp_actab {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 1px;
+    color: #1b2538;
+}
+
+.cp_qa .cp_actab input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* 質問 */
+.cp_qa .cp_actab label {
+    font-weight: bold;
+    line-height: 1.6;
+    position: relative;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 1em 2em 1em 1em;
+    cursor: pointer;
+    border-bottom: 1px solid #1b2538;
+}
+
+.cp_qa .cp_actab label:hover {
+    color: #1b2538;
+}
+
+/* 答え */
+.cp_qa .cp_actab .cp_actab-content {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: max-height 0.5s ease;
+    transition: max-height 0.5s ease;
+    color: #ffffff;
+    background: #ffffff;
+}
+
+.cp_qa .cp_actab .cp_actab-content p {
+    margin: 1em;
+}
+
+/* 質問を開いた時の仕様 */
+/* --アイコン */
+.cp_qa .cp_actab input:checked~label {
+    color: #1b2538;
+}
+
+/* --答えの高さ */
+.cp_qa .cp_actab input:checked~.cp_actab-content {
+    max-height: 100em;
+}
+
+/* 質問をクリックした時のアイコンの動き */
+.cp_qa .cp_actab label::after {
+    line-height: 1.6;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: block;
+    width: 3em;
+    margin-top: -12.5px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+.cp_qa .cp_actab input[type=checkbox]+label::after {
+    content: '▼';
+}
+
+.cp_qa .cp_actab input[type=checkbox]:checked+label::after {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.cp_actab-content p {
+    text-align: right;
+}
+
+
+section {
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+    /* border: 2px solid #000; */
+
+    /* 横にはみ出した要素をスクロールするプロパティ */
+    overflow-x: scroll;
+
+    /* 文字表記の方向（左右）を指定する */
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
+p {
+    /* 画像のサイズ指定 */
+    width: 5500px;
+}
+
+img {
+    /* 画像のサイズ指定 */
+    width: 100%;
+    height: auto;
 }

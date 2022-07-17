@@ -5,6 +5,7 @@
 <head>
     <title>えほんさっか しま田ゆい</title>
     <script src="/docs/volume_1/jquery-3.6.0.min.js"></script>
+    <link rel=”icon” href=“/docs/images/favicon.ico”>
 
 </head>
 
@@ -109,11 +110,11 @@
 
     <div class="front-cover-container">
 
-        <a href="volume_1/index.html"><img src="images/volume_1.png" alt="いめのうんどうかい表紙" width="50%"></a>
+        <a href="volume_1/index.html"><img src="images/volume_1.png" id="cover" width="50%"></a>
 
 
 
-        <a href="volume_2/index.html"><img src="images/volume_2.png" width="50%"></a>
+        <a href="volume_2/index.html"><img src="images/volume_2.png" id="cover" width="50%"></a>
 
 
     </div>
@@ -131,7 +132,7 @@
 
         new Vivus('move_intro', {
             type: 'scenario-sync',
-            duration: 70,
+            duration: 80,
             forceRender: false,
         })
 
