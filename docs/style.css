@@ -3,7 +3,7 @@
 body {
     font-family: serif;
     /* text-align: center; */
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 header {
@@ -27,6 +27,22 @@ h3 {
     margin-top: 2%;
 }
 
+.go_top {
+    position: fixed;
+    padding-left: 90%;
+}
+
+.go_top img {
+    position: fixed;
+    display: flex;
+    width: 8%;
+    text-align: right;
+}
+
+.go_top img:hover {
+    opacity: 0.5;
+}
+
 .title,
 .title p {
     /* vertical:縦書き、rl:右から左 */
@@ -38,7 +54,7 @@ h3 {
 
 .title-area {
     /* タイトル位置固定 */
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -49,7 +65,7 @@ h3 {
 
 .front-cover-container {
     display: flex;
-    padding-top: 2000px;
+    padding-top: 5000px;
     margin-bottom: 200px;
     text-align: center;
     /* margin: 0 auto; */
@@ -112,6 +128,39 @@ a {
 
 .cp_actab {
     text-align: center;
+}
+
+/* title.svg */
+.title_st0 {
+    fill: #ffffff;
+}
+
+.title_st1 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 5.6693;
+    stroke-miterlimit: 10;
+}
+
+.title_st2 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 7.6535;
+    stroke-miterlimit: 10;
+}
+
+.title_st3 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 8.5039;
+    stroke-miterlimit: 10;
+}
+
+.title_st4 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 6.0661;
+    stroke-miterlimit: 10;
 }
 
 
