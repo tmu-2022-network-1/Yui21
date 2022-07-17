@@ -65,7 +65,7 @@ h3 {
 
 .front-cover-container {
     display: flex;
-    padding-top: 5000px;
+    padding-top: 100px;
     margin-bottom: 200px;
     text-align: center;
     /* margin: 0 auto; */
@@ -131,38 +131,77 @@ a {
 }
 
 /* title.svg */
-.title_st0 {
+.st0 {
     fill: #ffffff;
 }
 
-.title_st1 {
+.st1 {
     fill: none;
     stroke: #ffffff;
     stroke-width: 5.6693;
     stroke-miterlimit: 10;
 }
 
-.title_st2 {
+.st2 {
     fill: none;
     stroke: #ffffff;
-    stroke-width: 7.6535;
+    stroke-width: 5.1024;
     stroke-miterlimit: 10;
 }
 
-.title_st3 {
+.st3 {
     fill: none;
     stroke: #ffffff;
     stroke-width: 8.5039;
     stroke-miterlimit: 10;
 }
 
-.title_st4 {
+.st4 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 4.5354;
+    stroke-miterlimit: 10;
+}
+
+.st5 {
     fill: none;
     stroke: #ffffff;
     stroke-width: 6.0661;
     stroke-miterlimit: 10;
 }
 
+.st6 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 4.252;
+    stroke-miterlimit: 10;
+}
+
+.st7 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 4.8189;
+    stroke-miterlimit: 10;
+}
+
+/* intro.svg */
+.intro_st0 {
+    fill: #ffffff;
+}
+
+.intro_st1 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 39.685;
+    stroke-miterlimit: 10;
+}
+
+.intro_st2 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 34.0157;
+    stroke-miterlimit: 10;
+}
 
 
 /* volume_1.svg */
